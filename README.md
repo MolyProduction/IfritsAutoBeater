@@ -1,45 +1,59 @@
 <div align="center">
 
-<img src="Logo.png" width="110" alt="Ifrits AutoBeater">
+<img src="Logo.png" width="88" alt="Ifrits AutoBeater">
 
 # Ifrits AutoBeater
 
 **Beat markers for your light show — automatic, not by hand.**
+
+*by [Ifrit Flammenzunge](https://ifritflammenzunge.de/ueber-mich/)*
 
 [![Version](https://img.shields.io/badge/Version-4.2-1f6feb)](https://github.com/MolyProduction/IfritsAutoBeater/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-64--bit-0078D6)](#-download--getting-started)
 [![License](https://img.shields.io/badge/License-Freeware-2ea44f)](LICENSE)
 [![VirusTotal](https://img.shields.io/badge/VirusTotal-view_report-394eff)](https://www.virustotal.com/gui/file/0f9721601d0641485fabb1ed58bf9c047c440c7c61f018204448225f51ed96ba)
 
-*A community tool made for light artists — not an official Lighttoys product.*
+*A free tool from the community, for the community — independent, not an official Lighttoys product.*
 
-🇬🇧 English · [🇩🇪 Deutsch](#-deutsch) · [🇨🇿 Česky](#-česky)
-
-<img src="screenshot.png" width="520" alt="Ifrits AutoBeater app window">
-
-</div>
+🇬🇧 English · [🇩🇪 Deutsch](#deutsch) · [🇨🇿 Česky](#cesky)
 
 **🎯 Right on the beat · 🎬 Your original stays untouched · ⚡ Seconds instead of hours**
 
----
+</div>
 
-## From empty to on-beat in one click
+## See the difference
 
-**Before — your empty timeline:**
+**Before · Vorher · Před** — your empty timeline:
 
 ![Before: empty LtComposer timeline](before.png)
 
-**After — one pass with Ifrits AutoBeater:**
+**After · Nachher · Po** — one pass with Ifrits AutoBeater:
 
 ![After: LtComposer timeline filled with beat markers](after.png)
 
 ## What is it?
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 **Ifrits AutoBeater** listens to your show's music and automatically sets **beat markers** in your **Lighttoys LtComposer** project (`.ltp`). Instead of placing every marker by hand, you get a clean marker grid in seconds as a starting point — then shape your show as usual in LtComposer.
 
 The music is analyzed and the markers are written into a **new** project file — **your original stays untouched**. The output name shows the settings used, e.g. `Show_IfritsAB-takte4.ltp` (bars, every 4th beat) or `Show_IfritsAB-bpm128.ltp` (grid).
 
+</td>
+<td width="42%" valign="top">
+<img src="screenshot.png" width="360" alt="Ifrits AutoBeater app window">
+</td>
+</tr>
+</table>
+
 > The automatic results aren't always perfect, but they give you a solid starting point for further shaping in LtComposer.
+
+> ### 💡 New to LtComposer?
+> **LtComposer** is the free Lighttoys software for creating light shows on their LED props — poi, staves, buugeng and more. You build your show on a timeline; **markers** help you land your light changes right on the music. Ifrits AutoBeater is a companion that prepares those markers for you.
+>
+> **➜ Get LtComposer:** [lighttoys.cz/software](https://www.lighttoys.cz/software/)
 
 ## ⬇️ Download & getting started
 
@@ -67,16 +81,23 @@ The app is an unsigned Windows EXE packaged with Python (librosa) — files like
 
 ## How to use
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 1. Select your `.ltp` project (music must be loaded in the project).
 2. Pick a mode.
 3. Click **"Set markers"**.
 4. Open the new file in LtComposer — done.
 
-<div align="center">
-<img src="done.png" width="360" alt="Result summary: markers set, tempo detected">
-</div>
-
 *A short summary tells you how many markers were set and which tempo was detected.*
+
+</td>
+<td width="42%" valign="top">
+<img src="done.png" width="300" alt="Result summary: markers set, tempo detected">
+</td>
+</tr>
+</table>
 
 ## Modes
 
@@ -99,17 +120,20 @@ The app is an unsigned Windows EXE packaged with Python (librosa) — files like
 
 📜 The full version history is in the **[CHANGELOG](CHANGELOG.md)**.
 
+*Bilder oben gelten für alle Sprachen. · Obrázky výše platí pro všechny jazyky.*
+
 ---
 
-<a name="-deutsch"></a>
+<a name="deutsch"></a>
 <details>
-<summary><b>🇩🇪 Deutsch — aufklappen</b></summary>
+<summary><b>🇩🇪 Deutsch — zum Aufklappen klicken</b></summary>
 
 <br>
 
 **Beat-Marker für deine Lichtshow – automatisch statt mühsam von Hand.**
 
-*Ein Community-Tool für Lichtkünstler – kein offizielles Lighttoys-Produkt.*
+*Ein kostenloses Tool aus der Community, für die Community – unabhängig, kein offizielles Lighttoys-Produkt.*
+(Die Screenshots und der Vorher/Nachher-Vergleich stehen oben.)
 
 ### Was ist das?
 
@@ -118,6 +142,11 @@ The app is an unsigned Windows EXE packaged with Python (librosa) — files like
 Die Musik wird analysiert und die Marker in eine **neue** Projektdatei geschrieben – **dein Original bleibt unangetastet**. Der Ausgabename zeigt die benutzten Einstellungen, z. B. `Show_IfritsAB-takte4.ltp` (Takte, jeder 4. Beat) oder `Show_IfritsAB-bpm128.ltp` (Raster).
 
 > Die automatischen Ergebnisse sind nicht immer perfekt, bieten aber eine gute Ausgangslage für die weitere Bearbeitung im LtComposer.
+
+> ### 💡 LtComposer noch nicht bekannt?
+> **LtComposer** ist die kostenlose Lighttoys-Software zum Erstellen von Lichtshows auf ihren LED-Requisiten – Poi, Stäbe, Buugeng und mehr. Du baust deine Show auf einer Zeitleiste; **Marker** helfen dir, deine Lichtwechsel genau auf die Musik zu setzen. Ifrits AutoBeater ist eine Ergänzung, die dir diese Marker vorbereitet.
+>
+> **➜ LtComposer holen:** [lighttoys.cz/software](https://www.lighttoys.cz/software/)
 
 ### ⬇️ Download & Start
 
@@ -169,15 +198,16 @@ Die App ist eine unsignierte, mit Python (librosa) gepackte Windows-EXE – bei 
 
 </details>
 
-<a name="-česky"></a>
+<a name="cesky"></a>
 <details>
-<summary><b>🇨🇿 Česky — rozbalit</b></summary>
+<summary><b>🇨🇿 Česky — kliknutím rozbalíte</b></summary>
 
 <br>
 
 **Beat markery pro tvou světelnou show – automaticky, ne ručně.**
 
-*Komunitní nástroj pro světelné umělce – není to oficiální produkt Lighttoys.*
+*Bezplatný nástroj z komunity, pro komunitu – nezávislý, není to oficiální produkt Lighttoys.*
+(Screenshoty a srovnání před/po najdeš výše.)
 
 ### Co to je?
 
@@ -186,6 +216,11 @@ Die App ist eine unsignierte, mit Python (librosa) gepackte Windows-EXE – bei 
 Hudba se analyzuje a markery se zapíší do **nového** projektového souboru — **originál zůstane nedotčen**. Název výstupu ukazuje použitá nastavení, např. `Show_IfritsAB-takte4.ltp` (takty, každý 4. beat) nebo `Show_IfritsAB-bpm128.ltp` (mřížka).
 
 > Automatické výsledky nejsou vždy dokonalé, ale poskytují dobrý výchozí bod pro další úpravy v LtComposeru.
+
+> ### 💡 Neznáš LtComposer?
+> **LtComposer** je bezplatný software od Lighttoys pro tvorbu světelných show na jejich LED rekvizitách – poi, tyče, buugeng a další. Show stavíš na časové ose; **markery** ti pomohou umístit světelné změny přesně na hudbu. Ifrits AutoBeater je doplněk, který ti tyto markery připraví.
+>
+> **➜ Získat LtComposer:** [lighttoys.cz/software](https://www.lighttoys.cz/software/)
 
 ### ⬇️ Stažení a spuštění
 
@@ -241,7 +276,7 @@ Aplikace je nepodepsané Windows EXE zabalené pomocí Pythonu (librosa) — u t
 
 <div align="center">
 
-**Created by Ifrit Flammenzunge** · Questions & support: [ifritflammenzunge.de](https://ifritflammenzunge.de/ueber-mich/)
-LtComposer software & downloads: [lighttoys.cz/software](https://www.lighttoys.cz/software/)
+**Ifrits AutoBeater** — created by **[Ifrit Flammenzunge](https://ifritflammenzunge.de/ueber-mich/)** · a tool from the community, for the community
+Questions & support: [ifritflammenzunge.de](https://ifritflammenzunge.de/ueber-mich/) · LtComposer software: [lighttoys.cz/software](https://www.lighttoys.cz/software/)
 
 </div>
