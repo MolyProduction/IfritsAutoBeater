@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Build / Python (falls später Quell-Artefakte anfallen)
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Test-Ausgaben des Tools
+*_IfritsAB-*.ltp
+*.IfritsBeats.json
