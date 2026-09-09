@@ -287,6 +287,6 @@ Aplikace je nepodepsané Windows EXE zabalené pomocí Pythonu (librosa) — u t
 <div align="center">
 
 **Ifrits AutoBeater** — created by **[Ifrit Flammenzunge](https://ifritflammenzunge.de/ueber-mich/)** · a tool from the community, for the community
-Questions & support: [ifritflammenzunge.de](https://ifritflammenzunge.de/ueber-mich/) · LtComposer software: [lighttoys.cz/software](https://www.lighttoys.cz/software/)
+Questions & support: [Github Issues](github.com/MolyProduction/IfritsAutoBeater/issues) or [ifritflammenzunge.de](https://ifritflammenzunge.de/ueber-mich/) · LtComposer software: [lighttoys.cz/software](https://www.lighttoys.cz/software/)
 
 </div>
